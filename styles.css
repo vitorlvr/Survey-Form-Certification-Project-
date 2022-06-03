@@ -1,3 +1,36 @@
-#title {
+body{
+    display: block;
+    text-align: center;
+    margin-bottom: 0;
+    background-color: #24005C;
+    color: white;
+    font-family: Arial, sans-serif;
+}
 
+
+.label {
+    width: auto;
+    padding-left: 70px;
+    text-align: left;
+    display: block;
+}
+
+h3{
+    margin: 10px 0px;
+}
+
+#survey-form {
+    background-color: #4100A8;
+    width: 60%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.checkbox {
+    background-color: #4100A8;
+    text-align: left;
 }
