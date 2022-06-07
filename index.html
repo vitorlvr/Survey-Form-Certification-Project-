@@ -11,30 +11,31 @@
     <h3>Thank you for taking the time to help us improve the platform</h3><br>
     <form id="survey-form">
         <div class="label">
-        <label id="label"><h3>Name:</h3><input name="name" id="name" type="text" placeholder="Enter your name" required></label><br
-        <label id="label"><h3>Email:</h3><input name="email" id="email" type="email" placeholder="Enter your email" required></label><br>
-        <label id="label"><h3>Age:</h3><input name="number" id="number" type="number" placeholder="Age" min="10" max="100" required></label><br>
-        <h3>Which option best describes your current role?</h3>
-        <select id="dropdown">
-            <option value="">Student</option>
-            <option value="">Full time job</option></div>
-        </select>
-        <div class="checkbox">
-            <h3>Would you recommend freecodecamp to a friend?</h3>
-            <h3>Definitely</h3><input name="option" type="radio" value="radio">
-            <h3>Maybe</h3><input name="option" type="radio" value="radio">
-            <h3>Not sure</h3><input name="option" type="radio" value="radio">
-            <h3>Front-end projects</h3><input type="checkbox" value="checkbox">
-            <h3>Back-end projects</h3><input type="checkbox" value="checkbox">
-            <h3>Data visualization</h3><input type="checkbox" value="checkbox">
-            <h3>Challenges</h3><input type="checkbox" value="checkbox">
-            <h3>Open Source Community</h3><input type="checkbox" value="checkbox">
-            <h3>Glitter help rooms</h3><input type="checkbox" value="checkbox">
-            <h3>Videos</h3><input type="checkbox" value="checkbox">
-            <h3>City Meetups</h3><input type="checkbox" value="checkbox">
-            <h3>Wiki</h3><input type="checkbox" value="checkbox">
-            <h3>Forum</h3><input type="checkbox" value="checkbox">
-            <h3>Additional Courses</h3><input type="checkbox" value="checkbox">
+            <label id="label"><h3 class="title">Name:</h3><input name="name" id="name" type="text" placeholder="Enter your name" required></label><br>
+            <label id="label"><h3 class="title">Email:</h3><input name="email" id="email" type="email" placeholder="Enter your email" required></label><br>
+            <label id="label"><h3 class="title">Age:</h3><input name="number" id="number" type="number" placeholder="Age" min="10" max="100" required></label><br>
+            <h3 class="title">Which option best describes your current role?</h3>
+            <select id="dropdown">
+                <option value="">Student</option>
+                <option value="">Full time job</option>
+            </select>
+        </div>
+        <div id="options">
+            <h3 class="title">Would you recommend freecodecamp to a friend?</h3>
+            <h3 class="option" style="display: inline">Definitely</h3><input name="option" type="radio" value="radio">
+            <h3 class="option" style="display: inline">Maybe</h3><input name="option" type="radio" value="radio">
+            <h3 class="option" style="display: inline">Not sure</h3><input name="option" type="radio" value="radio"><br>
+            <h3 class="option">Front-end projects</h3><input type="checkbox" value="checkbox">
+            <h3 class="option">Back-end projects</h3><input type="checkbox" value="checkbox">
+            <h3 class="option">Data visualization</h3><input type="checkbox" value="checkbox">
+            <h3 class="option">Challenges</h3><input type="checkbox" value="checkbox">
+            <h3 class="option">Open Source Community</h3><input type="checkbox" value="checkbox">
+            <h3 class="option">Glitter help rooms</h3><input type="checkbox" value="checkbox">
+            <h3 class="option">Videos</h3><input type="checkbox" value="checkbox">
+            <h3 class="option">City Meetups</h3><input type="checkbox" value="checkbox">
+            <h3 class="option">Wiki</h3><input type="checkbox" value="checkbox">
+            <h3 class="option">Forum</h3><input type="checkbox" value="checkbox">
+            <h3 class="option">Additional Courses</h3><input type="checkbox" value="checkbox">
         </div>
         <h3>Any comments or suggestions?</h3>
         <textarea name="comments" placeholder="Enter your comments here..."></textarea>
